@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <p>Homework 1</p>
+    <script>
+      var shapes = [];
+      shapeMaker = function(shape) {this.a = shape};
+      obj1 = new shapeMaker("circle");
+      shapes.push(obj1);
+      obj2 = new shapeMaker("circle");
+      shapes.push(obj2);
+      obj3 = new shapeMaker("square");
+      shapes.push(obj3);
+      obj4 = new shapeMaker("circle");
+      shapes.push(obj4);
+      obj5 = new shapeMaker("triangle");
+      shapes.push(obj5);
+      obj6 = new shapeMaker("triangle");
+      shapes.push(obj6);
+      obj7 = new shapeMaker("square");
+      shapes.push(obj7);
+      obj8 = new shapeMaker("triangle");
+      shapes.push(obj8);
+      obj9 = new shapeMaker("circle");
+      shapes.push(obj9);
+      obj10 = new shapeMaker("circle");
+      shapes.push(obj10);
+      console.log("Number of shapes: " + shapes.length);
+      for(i = 0; i < shapes.length; i++) {
+        console.log("Shape: " + shapes[i].a);
+      }
+    </script>
+  </body>
+</html>
